@@ -38,7 +38,7 @@ print("The average of", number1, number2, number3,
     "is", average)
     
 輸出:print
->>> q = 259
+>>> q = 9999
 >>> p = 0.038
 >>> print(q, p, p * q)
 >>> print(q, p, p * q, sep=",")
