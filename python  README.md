@@ -88,3 +88,51 @@ print(seconds, "seconds is", minutes,
 "minutes and", remainingSeconds, "seconds")
 ------------------------------------------------
 ```
+各種資料型態(data type)及其運算
+```
+數字型(numeric)資料型態及其運算
+Integral 類型:整數類型|布爾型
+浮點類型:浮點數|複數
+二進位八進位十進位十六進位數字
+
+字串(string)資料型態及其運算
+
+文數字編碼與解碼
+如何操縱Unicode字串
+
+Collection Data Types組合類型資料型態 
+列表|串列(list)資料型態及其運算
+元組(tuple)資料型態及其運算
+辭典|字典(dic)資料型態及其運算
+集合(set)資料型態及其運算
+```
+
+字串(string)的應用:編碼與解碼
+```
+s=u'台北'
+type(s)
+len(s)
+s
+
+
+s1='台北'
+len(s1)
+
+s2='Db'
+len(s2)
+
+s3='台北Db'
+len(s3)
+
+# 中文與英文字元同等對待，都算一個字元
+
+# 可以使用中文作為變數名稱
+
+地點='台'
+學校='南一中'
+年代=2018
+
+print(地點)
+print(學校)
+print(年代)
+```
