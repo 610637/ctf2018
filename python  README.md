@@ -11,29 +11,29 @@ python
 #!/usr/bin/env python
 #coding=utf-8
 
-# radius = 20 # radius is now 20
-# Prompt the user to enter a radius
+ radius = 20 # radius is now 20
+ Prompt the user to enter a radius
 radius = eval(input("Enter a number for radius: "))
 
-# Compute area
+ Compute area
 area = radius * radius * 3.14159
 
-# Display results
+ Display results
 print("The area for the circle of radius", radius, "is", area)
 
 
 
 同時指定(Simultaneous Assignment )
-#!/usr/bin/env python
-#coding=utf-8
-# Prompt the user to enter three numbers
+!/usr/bin/env python
+coding=utf-8
+ Prompt the user to enter three numbers
 number1, number2, number3 = eval(input(
   "Enter three numbers separated by commas: "))
 
-# Compute average
+ Compute average
 average = (number1 + number2 + number3) / 3
 
-# Display result
+ Display result
 print("The average of", number1, number2, number3,
     "is", average)
     
@@ -78,11 +78,11 @@ print(seconds, "seconds is", minutes,
   
   餘數運算子
   #!/usr/bin/env python
-#coding=utf-8
+coding=utf-8
 
 seconds = eval(input("Enter an integer for seconds: "))
 
-minutes = seconds // 60     # Find minutes in seconds
+minutes = seconds // 60      Find minutes in seconds
 remainingSeconds = seconds % 60   # Seconds remaining
 print(seconds, "seconds is", minutes,  
   "minutes and", remainingSeconds, "seconds")
