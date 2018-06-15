@@ -46,7 +46,7 @@ print("The average of", number1, number2, number3,
 >>> print(str(q) + " " + str(p) + " " + str(p * q))
 
 格式化輸出:使用format()
-
+```
 符  號	
 %c	 格式化字元及其ASCII碼
       %s	 格式化字串
@@ -61,7 +61,7 @@ print("The average of", number1, number2, number3,
       %g	 %f和%e的簡寫
       %G	 %f 和 %E 的簡寫
       %p	 用十六進位數格式化變數的位址
-
+```
 運算子
 #!/usr/bin/env python
 #coding=utf-8
