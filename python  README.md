@@ -77,6 +77,7 @@ print(seconds, "seconds is", minutes,
   數字型   字串   列表   辭典
   
   餘數運算子
+  ```
   #!/usr/bin/env python
 coding=utf-8
 
@@ -86,3 +87,4 @@ remainingSeconds = seconds % 60   # Seconds remaining
 print(seconds, "seconds is", minutes,  
 "minutes and", remainingSeconds, "seconds")
 ------------------------------------------------
+```
