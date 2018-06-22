@@ -44,7 +44,7 @@ print("The average of", number1, number2, number3,
 >>> print(q, p, p * q, sep=",")
 >>> print(q, p, p * q, sep=" :-) ")
 >>> print(str(q) + " " + str(p) + " " + str(p * q))
-
+ 
 格式化輸出:使用format()
 ```
 符  號	
@@ -127,6 +127,7 @@ len(s3)
 # 中文與英文字元同等對待，都算一個字元
 
 # 可以使用中文作為變數名稱
+
 
 地點='台'
 學校='南一中'
